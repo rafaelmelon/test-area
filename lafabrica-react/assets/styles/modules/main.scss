@@ -1,0 +1,78 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  background-color: $lf-brand;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size:100%;
+  @media (min-width: 768px) {
+    background-image: url("../image/bg.png");
+  }
+}
+
+.lf-logo {
+  width: 100%;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
+  @media (min-width: 1200px) {
+    width: 400px;
+  }
+}
+.lf-title {
+  .h1 {
+    color: $lf-brand2;
+  }
+}
+.lf-info {
+  .btn {
+    width: 100%;
+    color: $lf-brand2;
+    border-width: 2px;
+    border-color: $lf-brand2;
+    background-color: $lf-brand;
+    &:hover {
+      color: $white;
+      background-color: $lf-brand2;
+      border-color: $lf-brand2;
+    }
+    @media (min-width: 768px) {
+      width: auto;
+    }
+  }
+}
+.lf-social {
+  ul {
+    li {
+      .btn {
+        width: 100%;
+        background-color: $lf-brand2;
+        border-color: $lf-brand2;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    ul {
+      li {
+        .btn {
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
